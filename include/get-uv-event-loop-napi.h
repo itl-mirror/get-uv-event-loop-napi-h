@@ -2,7 +2,7 @@
 #define _GET_UV_EVENT_LOOP_NAPI_H
 
 #include <assert.h>
-#include <node_api.h>
+#include <node/node_api.h>
 
 #if !defined(NAPI_VERSION) || NAPI_VERSION < 2
 #include <get-symbol-from-current-process.h>
